@@ -1,5 +1,12 @@
 # LLM Context Usage Tracker
 
+## Live Demos
+👉 [V1 — Bottom Bar Tracker](https://ychuk.github.io/llm-context-usage-tracker) — Dark mode UI with persistent bottom context bar and color-coded warnings
+
+👉 [V2 — Hybrid Tracker with Pre-Send Assist](https://ychuk.github.io/llm-context-usage-tracker/mockup-v2.html) — Light mode UI with persistent top bar, live pre-send impact preview, and zone transition detection
+
+---
+
 ## Overview
 Large Language Model (LLM) conversations operate within a hidden constraint: the context window.
 *Note: "Context usage" refers to the portion of the model's context window consumed by tokens (input + output).*
@@ -92,12 +99,28 @@ A UI-based context usage tracker that:
 
 ---
 
+## Implementation Notes
+- SVG icons or Unicode characters used for all status indicators to ensure crisp rendering across zoom levels, screen sizes, and devices
+- Icons appear in exactly two locations only: the status pill and the pre-send warning line
+- Plain language warnings prioritized over technical terminology for broad user accessibility
+
+---
+
+## Tools Used
+- Claude (Anthropic) — V1 mockup, README, project architecture
+- ChatGPT (OpenAI) — V2 mockup development and iteration
+- Gemini (Google) — V2 visual concept and design direction
+- GitHub Pages — live deployment
+
+---
+
 ## Project Status
 🟡 In Progress
 
 - [x] Repository created
 - [x] README defined
-- [ ] UI mockup designed
+- [x] UI mockup designed — V1 complete
+- [x] V2 mockup designed — hybrid tracker with zone transition detection
 - [ ] HTML/CSS prototype built
 - [ ] JavaScript tracking implemented
 - [ ] QA scenarios tested
