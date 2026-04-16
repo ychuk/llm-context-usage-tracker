@@ -20,17 +20,17 @@ This project proposes a UI concept that visualizes context usage in real time an
 
 ---
 
-## Problem
-Users interact with LLMs without awareness of:
-- Current context usage
-- Remaining context capacity
-- When performance will begin to degrade
-- No ability to anticipate when the next message will trigger latency
+## Project Status
 
-This results in:
-- Unexpected latency
-- Truncated responses
-- Loss of important conversation history
+🟡 In Progress
+
+- Repository created
+- README defined
+- UI mockup designed — V1 complete
+- V2 mockup designed — hybrid tracker with zone transition detection
+- HTML/CSS prototype built
+- JavaScript tracking implemented
+- 🟡 QA scenarios — in progress
 
 ---
 
@@ -114,16 +114,15 @@ A UI-based context usage tracker that:
 
 ---
 
-## Project Status
 🟡 In Progress
 
-- [x] Repository created
-- [x] README defined
-- [x] UI mockup designed — V1 complete
-- [x] V2 mockup designed — hybrid tracker with zone transition detection
-- [ ] HTML/CSS prototype built
-- [ ] JavaScript tracking implemented
-- [ ] QA scenarios tested
+* Repository created
+* README defined
+* UI mockup designed — V1 complete
+* V2 mockup designed — hybrid tracker with zone transition detection
+* HTML/CSS prototype built
+* JavaScript tracking implemented
+* 🟡 QA scenarios — in progress
 
 ---
 
