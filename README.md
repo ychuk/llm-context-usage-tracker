@@ -3,7 +3,7 @@
 ## Live Demos
 👉 [V1 — Bottom Bar Tracker](https://ychuk.github.io/llm-context-usage-tracker) — Dark mode UI with persistent bottom context bar and color-coded warnings
 
-👉 [V2 — Hybrid Tracker with Pre-Send Assist](https://ychuk.github.io/llm-context-usage-tracker/mockup-v2.html) — Light mode UI with persistent top bar, live pre-send impact preview, and zone transition detection
+👉 [V2 — Hybrid Tracker with Pre-Send Assist](https://ychuk.github.io/llm-context-usage-tracker/v2.html) — Light mode UI with persistent top bar, live pre-send impact preview, and zone transition detection
 
 ---
 
